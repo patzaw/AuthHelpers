@@ -1,0 +1,26 @@
+Package: AuthHelpers
+Type: Package
+Title: Authentication helpers
+Version: 0.0.1
+Authors@R: c(
+      person(
+        "Patrice", "Godard",
+        role = c("aut", "cre","cph"),
+        email = "patrice.godard@gmail.com"
+      )
+   )
+Description: High-level functions to help manage
+   authentication in different context.
+URL:
+   https://github.com/patzaw/AuthHelpers/
+BugReports: https://github.com/patzaw/AuthHelpers/issues
+Depends:
+   R (>= 3.6)
+Imports:
+   AzureAuth,
+   R.utils
+License: GPL-3
+Encoding: UTF-8
+VignetteBuilder: knitr
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
