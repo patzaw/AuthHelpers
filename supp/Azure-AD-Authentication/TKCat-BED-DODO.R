@@ -1,10 +1,8 @@
-library(AuthHelpers)
-
 ###############################################################################@
 ## Azure AD authentication ----
 
 ## Get the initial credentials
-device_credentials <- create_azure_device_credentials(
+device_credentials <- AuthHelpers::create_azure_device_credentials(
    resource=c("api://kmt-prd01/user_impersonation"),
    tenant="237582ad-3eab-4d44-8688-06ca9f2e613b",
    app="f55d2b52-9fed-4b05-8b0a-b24cf8149922"
